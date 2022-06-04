@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College Experience(Intro-page)</title>
+    <link href="http://fonts.cdnfonts.com/css/gagalin" rel="stylesheet">
+    <!-- https://www.cdnfonts.com/gagalin.font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+</head>
+
+<style>
+    * {
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+    }
+
+    .container {
+        display: flex;
+        flex-flow: column wrap;
+        height: 600px;
+        align-items: flex-start;
+        justify-content: center;
+        font-family:'Lobster', cursive;
+        color: whitesmoke;
+        text-shadow: 8px 8px 8px darkcyan;
+        font-size: 60px;
+        /* margin: 20px 20px;
+        padding: 10px 10px; */
+        padding-left: 150px;
+        padding-bottom: 180px;
+        margin-top: 10px;
+        overflow-x: hidden;
+    }
+
+    .container p 
+    {
+        color: aquamarine;
+        font-size: 25px;
+        margin-top: 20px;
+        opacity: 0;
+    }
+
+    body 
+    {
+        background-image: url('https://wallpaperaccess.com/full/423702.jpg');
+        background-size: 100%;
+    }
+
+    .btn 
+    {
+        opacity: 0;
+    }
+
+    .btn a 
+    {
+        text-decoration: none;
+        border: 7px solid black;
+        border-radius: 30px;
+        color: antiquewhite;
+        font-size: 20px;
+        font-family: 'Lobster', cursive;
+        font-size: 30px;
+        text-shadow: 3px 3px 3px aqua;
+        margin-top: 20px;
+        margin-left: 100px;
+        padding: 10px 10px;
+        line-height: 100px;
+    }
+
+    .btn a:hover {
+        border: 5px solid yellow;
+        color: aqua;
+        text-shadow: 5px 5px 5px red;
+
+    }
+
+    .slide-left {
+        animation: slideleft 1s linear forwards;
+    }
+
+    @keyframes slideleft {
+        0% {
+            transform: translate(100px);
+            opacity: 0;
+        }
+
+        100% {
+            transform: translate(0px);
+            opacity: 1;
+        }
+    }
+
+    .content .slide-left
+    {
+        animation-delay: 1s;
+    }
+
+    p.slide-left {
+        animation-delay: 2s;
+    }
+
+    .btn.slide-left {
+        animation-delay: 2.5s;
+    }
+
+    .content {
+        text-shadow: 4px 4px 4px red;
+    }
+
+
+    .content p 
+    
+    {
+        color: black;
+    }
+
+    </style>
+
+<body>
+    <div class="container">
+
+        <div class="content slide-left">
+
+            Welcome !!
+            <br>
+            <p class="slide-left">
+                This website includes our college experience in
+                <br>
+                Indian Institute of Information Technology, Ranchi
+            </p>
+        </div>
+
+        <div class="btn slide-left zoom blink"> <a href="02.html">Let's Explore</a>
+        </div>
+        
+    </div>
+
+</body>
+
+</html>

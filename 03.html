@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College Experience(About)</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Secular+One&display=swap" rel="stylesheet">
+    <style>
+
+        body {
+            background: url('https://i.pinimg.com/550x/1b/55/e4/1b55e4bdb4fc6051382e370bf26d5a59.jpg');
+            background-size: 100%;
+        }
+
+        .navbar {
+
+            border-radius: 18px;
+        }
+
+        .navbar ul {
+            overflow: auto;
+        }
+
+        .navbar li {
+            border: 4px solid white;
+            list-style: none;
+            float: left;
+            padding: 10px 10px;
+            margin-left: 100px;
+            margin-top: 30px;
+            font-size: x-large;
+            margin-bottom: 0px;
+            border-radius: 30px;
+        }
+
+        .navbar li:hover {
+            border: 7px solid cyan;
+        }
+
+        .navbar li a {
+            text-decoration: none;
+            color: white;
+            text-shadow: 8px 8px 8px black;
+            font-family: 'Kaushan Script', cursive;
+            font-size: xx-large;
+        }
+
+        .navbarinput {
+            border-radius: 140px;
+        }
+
+        .navbar li a:hover {
+            color: yellow;
+        }
+
+        #but1 {
+            border: 5px solid cyan;
+        }
+
+        #but2 {
+            margin-right: 0px;
+        }
+
+        .wrapper div {
+            width: 70px;
+            height: 70px;
+            border: 5px solid pink;
+            position: absolute;
+            z-index: -3;
+        }
+
+        .wrapper div:nth-child(1) {
+            top: 30%;
+            left: 0%;
+            animation: square 5s linear infinite;
+        }
+
+        .wrapper div:nth-child(2) {
+            top: 30%;
+            left: 50%;
+            animation: square 4s linear infinite;
+        }
+
+        .wrapper div:nth-child(3) {
+            top: 80%;
+            left: 30%;
+            animation: square 5s linear infinite;
+        }
+
+        .wrapper div:nth-child(4) {
+            top: 60%;
+            left: 60%;
+            animation: square 3s linear infinite;
+        }
+
+        .wrapper div:nth-child(5) {
+            top: 90%;
+            left: 0%;
+            animation: square 4s linear infinite;
+        }
+
+        .wrapper div:nth-child(6) {
+            top: 20%;
+            left: 95%;
+            animation: square 5s linear infinite;
+        }
+
+        .wrapper div:nth-child(7) {
+            top: 65%;
+            left: 15%;
+            animation: square 6s linear infinite;
+        }
+
+        .wrapper div:nth-child(8) {
+            top: 40%;
+            left: 40%;
+            animation: square 4s linear infinite;
+        }
+
+        .wrapper div:nth-child(9) {
+            top: 45%;
+            left: 80%;
+            animation: square 5s linear infinite;
+        }
+
+        .wrapper div:nth-child(10) {
+            top: 90%;
+            left: 90%;
+            animation: square 6s linear infinite;
+        }
+
+        .wrapper div:nth-child(11) {
+            top: 70%;
+            left: 80%;
+            animation: square 6s linear infinite;
+        }
+
+        @keyframes square {
+            0% {
+                transform: scale(0) translateY(0) rotate(0);
+                opacity: 0.8;
+            }
+
+            100% {
+                transform: scale(1.2) translateY(-90px) rotate(360deg);
+                opacity: 0.3;
+            }
+        }
+
+        .content
+        {
+            font-family: 'Secular One', sans-serif;
+            font-size: x-large;
+            color: white;
+            text-shadow: 2px 2px 5px red;
+            z-index: 3;
+            margin-left: 40px;
+            padding: 10px 10px;
+            float: right;
+        }
+
+        .content h2
+        {
+            font-size: xx-large;
+            text-shadow: 4px  4px 10px blue;
+            z-index: 2;
+            margin-left: 40px;
+            margin-right: 100px;
+        }
+
+        .simple
+        {
+            float: left;
+            height: 430px;
+            width: 480px;
+            z-index: 2;
+            padding: 0px 0px;
+            opacity: 0;
+            animation: slideright 1s linear forwards;
+            animation-delay: 2s;
+        }
+
+        @keyframes slideright
+        {
+            0%{
+                transform: translate(-100px);
+                opacity: 0;
+            }
+
+            100%
+            {
+                transform: translate(0px);
+                opacity: 1;
+            }
+        }
+        .slide-left {
+        animation: slideleft 1s linear forwards;
+        opacity: 0;
+    }
+
+    @keyframes slideleft {
+        0% {
+            transform: translate(100px);
+            opacity: 0;
+        }
+
+        100% {
+            transform: translate(0px);
+            opacity: 1;
+        }
+    }
+
+    #para2
+    {
+        animation-delay: 2.5s;
+    }
+
+    #para3
+    {
+        animation-delay: 3.5s;
+    }
+    
+    </style>
+</head>
+
+<body>
+
+    <body>
+        <header>
+            <nav class="navbar">
+                <ul>
+                    <li>
+                        <a href="02.html"><strong>&nbsp;Home&nbsp;</strong></a>
+                    </li>
+                    <li id="but1">
+                        <a href="03.html"><strong>&nbsp;About&nbsp;</strong></a>
+                    </li>
+                    <li>
+                        <a href="04.html"><strong>&nbsp;Campus&nbsp;</strong></a>
+                    </li>
+                    <li>
+                        <a href="05.html"><strong>&nbsp;Explore&nbsp;</strong></a>
+                    </li>
+                    <li id="but2">
+                        <a href="06.html"><strong>Contact Us</strong></a>
+                    </li>
+
+                </ul>
+            </nav>
+            </div>
+        </header>
+
+        <div class="container">
+            <div class="wrapper">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+
+        <div class="content">
+            <!-- <h2>Hello Guys!!</h2> -->
+
+            <img class="simple" src="img21.png" alt="Error Loading">
+            
+            <p class="slide-left" id="para1">College Life is something which is one of the most memorable years of one's life. It is entirely different from school life. College life exposes us to new experiences and things that we were not familiar with earlier.</p>
+
+            <p class="slide-left" id="para2"> College life experience is truly one of a kind. The most common memories people have of college life are definitely goofing around with friends. They remember how the group of friends walked around the college in style and playing silly pranks on each other.</p>
+
+            <p class="slide-left" id="para3">This is a place where I tried to frame my experience of college life till now in IIIT Ranchi with so many friends which feels like a family by the way.</p>
+
+        </div>
+
+</body>
+
+</html>
